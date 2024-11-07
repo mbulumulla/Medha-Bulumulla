@@ -3,9 +3,19 @@
 .box {
     width: 80%;
 }
+
+@font-face {
+    font-family: libreBaskerville;
+    src: url(fonts/LibreBaskerville-Regular.ttf);
+  }
+  @font-face {
+    font-family: alice;
+    src: url(fonts/Alice-Regular.ttf);
+  }
+
 body {
     /* font-family: "Lucida Console", "Courier New", monospace; */
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: alice, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background-image: url("images/homepage.png"); */
     background-color:#ffedf3;
     color: rgb(0, 0, 0);
@@ -31,7 +41,7 @@ body {
 
 .container-small {
     margin: auto;
-	width: 10%;
+	width: 100px;
 }
 .main-gradient h1 {
     color:#ffffff;
